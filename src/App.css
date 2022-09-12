@@ -1,3 +1,13 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
 }
+
+@media (min-width:400px) {
+    .item-conc {
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    }
+}
+
+.nav-items {
+    transition: all ease-in-out 100ms;
+}
